@@ -1,0 +1,229 @@
+#title {
+  background-color: #cf7272;
+  color: #fff;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* Title Section */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding-bottom: 4rem;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+.download-button {
+  color: #e3dede;
+  margin: 5% 3% 5% 0;
+  font-weight: 500;
+}
+
+.hire-button {
+  color: #e3dede;
+  margin: 5% 3% 5% 0;
+  font-weight: 500;
+}
+
+.hire-button:hover {
+  background-color: #323233;
+}
+
+.web-image {
+  width: 50%;
+  position: absolute;
+  top: 15%;
+  right: 5%;
+}
+
+/* Features Section */
+#features {
+  background-color: white;
+  padding: 7% 15%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-image {
+  margin-bottom: 50px;
+}
+
+.feature-section .fa-brands {
+  color: #ef8172;
+}
+
+.feature-section .fa-brands:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  background-color: #cf7272;
+  color: white;
+}
+
+.testimonial-logo {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.btn-padding {
+  margin: 42px 0 0;
+}
+
+.container {
+  padding: 50px 0 0;
+}
+
+/* Media Queries */
+@media (max-width:991px) {
+  .web-image {
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+
+/* more section */
+#more {
+  padding: 100px;
+  text-align: center;
+}
+
+.more-column {
+  padding: 3% 2%;
+}
+
+.more-section h2 {
+  color: #000;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.more-section h3 {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.circle-image {
+  border-radius: 100%;
+  width: 35%;
+  margin: 20px;
+}
+
+
+/* CTA Section */
+#cta {
+  background-color: #cf7272;
+  text-align: center;
+  color: white;
+  padding: 7% 15%;
+}
+
+.social-icons {
+  margin: 20px 10px;
+}
+
+.fa-twitter {
+  width: 10px;
+}
+
+.ctafoot {
+  padding-bottom: 3%;
+}
+
+.ctafoot h3 {
+  font-size: 3.5rem;
+}
+
+.ctafoot p {
+  padding: 50px 100px 0;
+  color: white;
+  font-size: 20px;
+}
+
+/* Contact Section */
+.contact-section h4 {
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.contact-section p a {
+  text-decoration: none;
+  color: #cf7272;
+}
+
+.contact-section p a:hover {
+  color: black;
+}
+
+.contact-section {
+  padding: 30px;
+}
+
+.mobile-color {
+  color: #cf7272;
+}
+
+/* Footer Section */
+#footer {
+  padding-top: 3%;
+  text-align: center;
+}
+
+.footer-href {
+  color: black;
+}

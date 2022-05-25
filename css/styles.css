@@ -122,19 +122,6 @@ p {
   padding: 50px 0 0;
 }
 
-/* Media Queries */
-@media (max-width:991px) {
-  .web-image {
-    position: static;
-    width: 50%;
-    transform: rotate(0);
-  }
-
-  #title {
-    text-align: center;
-  }
-}
-
 
 /* more section */
 #more {
@@ -164,7 +151,6 @@ p {
   margin: 20px;
 }
 
-
 /* CTA Section */
 #cta {
   background-color: #cf7272;
@@ -173,23 +159,16 @@ p {
   padding: 7% 15%;
 }
 
-.social-icons {
-  margin: 20px 10px;
-}
-
-.fa-twitter {
-  width: 10px;
-}
 
 .ctafoot {
   padding-bottom: 3%;
 }
 
-.ctafoot h3 {
+.ctaHead {
   font-size: 3.5rem;
 }
 
-.ctafoot p {
+.ctaPara {
   padding: 50px 100px 0;
   color: white;
   font-size: 20px;
@@ -226,4 +205,55 @@ p {
 
 .footer-href {
   color: black;
+}
+.social-icons {
+  margin: 20px 10px;
+}
+
+.fa-twitter {
+  width: 10px;
+}
+/* Media Queries */
+@media (max-width:991px) {
+  .web-image {
+    position: static;
+    width: 100%;
+  }
+
+  p {
+    color: #8f8f8f;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 3rem;
+  }
+  .ctaHead{
+    font-size: 4rem;
+  }
+  .ctaPara {
+    padding: 50px 20px 0;
+    color: white;
+    font-size: 2rem;
+  }
+.nav-link{
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+  #title {
+    text-align: center;
+  }
 }
